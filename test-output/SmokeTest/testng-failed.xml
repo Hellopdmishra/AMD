@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmokeTest]">
+  <test thread-count="5" name="AMDTelecomTests(failed)">
+    <classes>
+      <class name="com.amdtelecom.route.Testdata.SendSMSTest">
+        <methods>
+          <include name="SendSMSTest1"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amdtelecom.route.Testdata.SendSMSTest -->
+      <class name="com.amdtelecom.route.Testdata.LoginTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.amdtelecom.route.Testdata.LoginTest -->
+    </classes>
+  </test> <!-- AMDTelecomTests(failed) -->
+</suite> <!-- Failed suite [SmokeTest] -->

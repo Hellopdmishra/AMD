@@ -1,0 +1,16 @@
+<suite name="SmokeTest" parallel="false">
+  <test name="AMDTelecomTests" >
+    <classes>
+       <class name="com.amdtelecom.route.Testdata.LoginTest">
+       		<method>
+       			<include name="loginTest()"/>
+       		</method>
+       	</class>
+       	<class name="com.amdtelecom.route.Testdata.SendSMSTest">
+       		<method>
+       			<include name="SendSMSTest1()"/>
+       		</method>
+       	</class>
+    </classes>
+  </test>
+</suite>
